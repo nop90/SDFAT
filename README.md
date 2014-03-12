@@ -29,7 +29,7 @@ Limitations:
    - no file or directory creation
    - no file resizing, can write only on already allocated sectors
 
-Know bugs:
+Known bugs:
 ============
    - wrong fiile/folder addressing on FAT 16 (problem identified, but in low periority to fix ...) 
    - reading a file can affect the directory listing if the dir has more than few files. Fixing in progress.
